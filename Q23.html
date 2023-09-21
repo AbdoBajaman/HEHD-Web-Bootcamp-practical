@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #my-div {
+            background-color: antiquewhite;
+            width: 500px;
+            height: 300px;
+            box-sizing: border-box;
+            padding: 20px;
+            border: 2px solid black;
+
+
+        }
+
+        .me {
+            width: calc(500px - (20px +20px + 2px + 2px));
+            height: calc(300px - (20px +20px + 2px + 2px));
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="my-div">
+        <div class="me">Calculate space</div>
+    </div>
+</body>
+
+</html>
