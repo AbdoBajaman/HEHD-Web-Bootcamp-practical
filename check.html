@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div[row="1"]
+        {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-left: 10px;
+            border-radius: 25px;
+        }
+        div[row="2"]
+        {
+            width: 100px;
+            height: 100px;
+            /* display: inline-block; */
+            margin-left: 10px;
+            border-radius: 25px;
+        }
+        span[color="red"] + div 
+        {
+                   background-color: red;
+        }
+        span[color="green"] + div 
+        {
+                   background-color: green;
+        }
+        span[color="blue"] + div 
+        {
+                   background-color: blue;
+        }
+        span[color="yellow"] + div 
+        {
+                   background-color: yellow;
+        }
+   
+
+      
+    </style>
+</head>
+<body>
+
+    <div>
+        <!-- <div style="display: inline-block;" row="1">
+            <div style="background-color: #FCDBBA;" row="1"></div>
+            <span>blue</span>
+
+        </div> -->
+
+<!-- 
+        <div style="display: inline-block;">
+        </div> -->
+
+            <span color="blue">blue</span>
+
+            <div class="b"  style="" row="2"></div>
+            <!-- <span color="red">red</span> -->
+
+        
+    
+        <!-- <div style="background-color: #6A2352;" row="3"></div>
+        <div style="background-color: #A12F2f;" row="4"></div>
+        <div style="background-color: #FEE684;" row="5"></div>
+        <div style="background-color: #461234;" row="6"></div>
+        <div style="background-color: #82BFE0;" row="7"></div>
+        <div style="background-color: #91A2C2;" row="8"></div>
+        <div style="background-color: #FCDBBA;" row="9"></div>
+        <div style="background-color: #FF8652;" row="10"></div> -->
+     
+        
+    </div>
+
+    
+</body>
+</html>
