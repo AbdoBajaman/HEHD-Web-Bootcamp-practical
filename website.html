@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        li[firstpart=""] {
+            display: inline-block;
+
+            color: white;
+            margin-left: 10px;
+            /* padding-top:100px ; */
+        }
+
+        li[sendond-header] {
+            display: inline-block;
+
+            color: white;
+            margin-top: 14px;
+            margin-left: 170px;
+
+        }
+
+        div[div-second-part] {}
+
+
+
+        li[firstpart=""]:not(:nth-last-of-type(1)):after {
+            content: " | ";
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+
+        .Header-above {
+
+            display: inline-block;
+            margin-top: 35px;
+            vertical-align: top;
+        }
+
+        .Header-bottom {
+            background-color: rgba(4, 56, 103, 1);
+            margin-top: 43px;
+            height: 55px;
+        }
+
+        header {
+            background-color: rgba(79, 145, 205, 1);
+            height: 125px;
+
+
+            /* width: 100%;
+            height: 100px; */
+            /* display: inline-block; */
+        }
+
+        .secondpart-header {
+            font-size: 30px;
+            letter-spacing: 15px;
+            color: white;
+        }
+
+        .secondpart-i {
+            font-size: 15px;
+            text-align: center;
+            margin-left: 25;
+            color: white;
+
+        }
+
+        .right-btns {
+            display: inline-block;
+
+
+            margin-top: 40px;
+            vertical-align: top;
+            margin-left: 27%;
+
+
+
+        }
+
+        button {
+            background-color: rgba(79, 145, 205, 1);
+            color: white;
+            border: 1px solid white;
+            height: 30px;
+            width: 70px;
+
+        }
+
+        .container {
+
+            margin: 10px;
+            margin-top: 80px;
+            width: 100%;
+        }
+
+        .background-section {
+            height: 450px;
+            width: 98.4%;
+
+
+            background-image: url("5.jpg");
+
+            background-size: cover;
+
+            text-align: center;
+            color: #ffffff;
+        }
+
+
+        .paragraph-inside-background {
+            font-size: 60px;
+        }
+
+        hr {
+            color: white;
+            width: 78%;
+        }
+
+        .green-section {
+            margin-top: 20px;
+            width: 98.4%;
+
+
+            background-color: #7aa120;
+        }
+
+        .paragraph-inside-green-section {
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+            margin-top: 46px;
+            margin-left: 3%;
+            height: 78px;
+        }
+
+        .boxes {
+            margin-top: 20px;
+            width: 98.4%;
+        }
+
+        a:hover {
+            background-color: #7aa120;
+        }
+
+        li[sendond-header] {
+            display: inline-block;
+        }
+
+        .nav-bottom {
+            padding: 1px;
+        }
+
+        .nav-bottom:hover {
+            /* background-color: rgb(25, 53, 78); */
+        }
+
+        footer>div>ol>li {
+            list-style-type: none;
+        }
+
+        .footer-list {
+            color: #a6a49e;
+        }
+
+        /* .uuu:hover {
+            background-color: #888a8f;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="Header-above">
+            <ol style="" class="first-part">
+                <li firstpart="">Directories</li>
+                <li firstpart="">Calendars</li>
+                <li firstpart="">News</li>
+                <li firstpart="">Library</li>
+
+            </ol>
+
+
+
+
+
+        </div>
+        <div style=" display: inline-block;margin-left: 20%;">
+            <!-- <h3 class="secondpart-header">SIMMONS
+                <br>
+
+            </h3> -->
+            <br>
+            <img src="4.png" alt="">
+            <br>
+            <span class="secondpart-i">
+                &emsp; &emsp; BOOSTAN - MASSACHUSETTS
+
+            </span>
+
+        </div>
+
+        <div class="right-btns">
+            <button>Links for</button>
+            <button>Search</button>
+        </div>
+
+        <div class="Header-bottom">
+            <ol>
+                <li class="nav-bottom" style="" sendond-header="">About Simons</li>
+
+
+                <li class="nav-bottom" style="
+                        " sendond-header="">
+                    Acadimics
+                </li>
+
+
+                <li class="nav-bottom" sendond-header="">
+                    Admission&Financial Aid
+                </li>
+
+                <li class="nav-bottom" sendond-header=""> Student Life</li>
+
+
+                <li class="nav-bottom" sendond-header="">
+                    Alumnae/i & Friends
+                </li>
+
+
+
+            </ol>
+        </div>
+
+
+
+
+
+
+
+
+
+    </header>
+
+    <main class="container">
+        <section class="background-section">
+            <br><br>
+            <br>
+            <br>
+            <br>
+
+            <hr>
+            <p class="paragraph-inside-background">
+                ACADEMICS <br>
+                <span style="font-size: 50px;">The Journey Starts Here</span>
+            </p>
+            <hr>
+
+
+        </section>
+        <!-- <hr>
+            <p>
+                ACADEMICS <br>
+                <span>The journey Starts Here></span>
+            </p>
+            <hr> -->
+        <section class="green-section">
+            <h3 style="display: inline-block; font-size: 40px;margin-left: 20px;color: white;margin-top: 36px;">
+                Make your move &gt;
+            </h3>
+            <p class="paragraph-inside-green-section">
+
+                You’ll work,discover,evolve and emerge with a new kind
+                kind of confidence.A new kind of <br>
+                courage.A leader for yourself,your community and the world.Apply now>
+            </p>
+
+        </section>
+        <section class="boxes">
+            <div style="background-color:#e7ecf0; width: 450px; height: 400px; display: inline-block;">
+
+
+                <p style="font-size: 30px; color:#4b92ce; padding: 20px;padding-top: 30px;">Updergraduate <br>
+                    programs
+                    <br>
+
+                    <span style="font-size: 15px; color: #888a8f;">You’ll find over 50 programs --and one that’s just
+                        right for you.</span>
+                </p>
+            </div>
+            <div
+                style="background-color:#e7ecf0; width: 450px; height: 400px; display: inline-block;margin-left: 30px;">
+
+
+                <p style="font-size: 30px; color:#4b92ce; padding: 20px;padding-top: 30px;">Updergraduate <br>
+                    programs
+                    <br>
+
+                    <span style="font-size: 15px; color: #888a8f;">You’ll find over 50 programs --and one that’s just
+                        right for you.</span>
+                </p>
+            </div>
+            <div
+                style="background-color:#e7ecf0; width: 450px; height: 400px; display: inline-block;margin-left: 14px;">
+
+
+                <p style="font-size: 30px; color:#4b92ce; padding: 20px;padding-top: 30px;">Updergraduate <br>
+                    programs
+                    <br>
+
+                    <span style="font-size: 15px; color: #888a8f;">You’ll find over 50 programs --and one that’s just
+                        right for you3.</span>
+                </p>
+            </div>
+
+            <div style="background-color:#620e6e; width: 450px; height: 400px; display: inline-block;margin-left:0px;">
+
+
+                <p style="font-size: 30px; color:white; padding: 20px;padding-top: 120px;    margin-top: 34px;">
+                    Updergraduate <br>
+                    programs
+                    <br>
+
+                    <span style="font-size: 15px; color: white;">You’ll find over 50 programs --and one that’s just
+                        right for you.</span>
+                </p>
+            </div>
+            <div
+                style="background-color:#4385c1; width: 450px; height: 400px; display: inline-block;margin-left: 30px;">
+
+
+                <p style="font-size: 30px; color:white; padding: 20px;padding-top: 120px;    margin-top: 34px;">
+                    Updergraduate <br>
+                    programs
+                    <br>
+
+                    <span style="font-size: 15px; color: white;">You’ll find over 50 programs --and one that’s just
+                        right for you.</span>
+                </p>
+            </div>
+            <div style=" width: 450px; height: 400px; display: inline-block;margin-left: 30px;">
+
+
+                <p style="font-size: 30px; color:#4b92ce; padding: 20px;padding-top: 30px;margin-bottom: 36px;">
+                    upcoming school event
+                    <br>
+                    <br>
+                <div style="    width: 120px;
+                    height: 73px; background-color: gray;display: inline-block;margin-left: 18px;">
+
+                    <div style="text-align: center;">
+                        <h3 style="">jan</h3>
+                        <p style="font-size: 29px;">20</p>
+                    </div>
+
+
+                </div>
+                <div style="display: inline-block;">
+                    <p style="margin-left: 49px;">Student art show</p>
+                </div>
+
+                <!-- <span style="font-size: 15px; color: #888a8f;">You’ll find over 50 programs --and one that’s just
+                        right for you.</span> -->
+                <div style="    width: 120px;
+                        height: 73px; background-color: gray;margin-left: 18px;margin-top: 10px;">
+
+                    <div style="text-align: center;">
+                        <h3 style="">jan</h3>
+                        <p style="font-size: 29px;">20</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+        <br>
+
+        <section style="color: blue;">
+            <div style="display: inline-block;border: 1px solid blue;padding: 15px 100px;">
+                Visit simmmons
+            </div>
+            <div style="display: inline-block;margin-left: 100px;padding: 15px 100px;border: 1px solid blue;">Apply
+            </div>
+            <div style="display: inline-block; margin-left: 100px;padding: 15px 100px;border: 1px solid blue;">Request
+                information</div>
+            <div style="display: inline-block; margin-left: 100px;padding: 15px 100px;border: 1px solid blue;">support
+            </div>
+        </section>
+        <br>
+        <br>
+        <footer style="background-color: #34383c;height: 700px;">
+            <div style="display: inline-block;">
+                <p style="color: white;">Acadimic</p>
+                <br>
+                <ol class="footer-list">
+                    <li>Undergraduate programs</li>
+                    <li>Graduate programs</li>
+                    <li>Certificate programs</li>
+                    <li>Accelerated and dual degree</li>
+                    <li>programs</li>
+                    <li>Contuning&proffisional</li>
+                    <li>Education</li>
+                    <li>faculty</li>
+                    <li>Research</li>
+                    <li>School</li>
+                </ol>
+            </div>
+            <div style="display: inline-block;vertical-align: top;margin-left: 200px;">
+                <p style="color: white;">Student life</p>
+                <br>
+                <ol class="footer-list">
+                    <li>Life at simmons</li>
+                    <li>Activity Organizing</li>
+                    <li>Student service</li>
+
+                </ol>
+
+            </div>
+            <div style="display: inline-block;vertical-align: top;margin-left: 220px;">
+                <p style="color: white;">Alumnae/i&Friends</p>
+                <br>
+                <ol class="footer-list">
+                    <li>Connect</li>
+                    <li>Give</li>
+                    <li>Event</li>
+                    <li>Alumnae/i directory</li>
+
+                </ol>
+
+            </div>
+            <div style="display: inline-block;vertical-align: top;margin-left: 300px;">
+                <p style="color: white;">Athletics</p>
+                <p style="color: white;">Directories</p>
+
+                <p style="color: white;">Library</p>
+
+                <p style="color: white;">Contact web master</p>
+
+
+
+            </div>
+            <div style="display: inline-block;     margin-top: 80px;">
+                <p style="color: white;">Admision&Finincial <br>Aid</p>
+                <br>
+                <ol class="footer-list">
+                    <li>Undergraduate Admision</li>
+                    <li>Graduate Admision</li>
+                    <li>Student Finincial Admision</li>
+                    <li>Visit simmons</li>
+                    <li>Request information</li>
+
+                </ol>
+            </div>
+            <div style="display: inline-block;vertical-align: top;margin-left: 200px;">
+                <p style="color: white;">About simmmons</p>
+                <br>
+                <ol class="footer-list">
+                    <li>Why simmmons</li>
+                    <li>Leadership</li>
+                    <li>Work at simmmons</li>
+                    <li>Conferences and Lectures</li>
+                    <li>News</li>
+                    <li>ADministrative office and Services</li>
+                    <li>Contact us</li>
+
+
+                </ol>
+
+            </div>
+         
+            <div style="display: inline-block;vertical-align: top;margin-left: 220px;margin-top: 30px;">
+                <p style="color: white;">Request For</p>
+                <br>
+                <ol class="footer-list">
+                    <li>Future undergrade</li>
+                    <li>Admmitted Undergrade</li>
+                    <li>Students</li>
+                    <li>International Students</li>
+                    <li>For parents and families</li>
+                    <li>Faculty and staff</li>
+                    <li>Alumnae/i and Friends</li>
+                    <li>For media</li>
+
+                </ol>
+
+            </div>
+
+            <br>
+            <br>
+
+            <hr style="width: 100%;">
+            <br>
+            <br>
+
+            <p style="text-align: center;color: white;">&copy; 2016 simmons College | 300 the fenway,Boston,MA02115 |
+                617-521-2000 </p>
+
+        </footer>
+
+
+
+    </main>
+
+
+
+</body>
+
+</html>

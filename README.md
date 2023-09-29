@@ -1,1 +1,0 @@
-# HEHD-Web-Bootcamp-practical
